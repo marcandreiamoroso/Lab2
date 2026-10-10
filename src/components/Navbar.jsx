@@ -23,6 +23,10 @@ function Navbar() {
             Home
           </NavLink>
 
+          <NavLink to="/students" end className={linkStyle}>
+            Students
+          </NavLink>
+
           <NavLink to="/about" className={linkStyle}>
             About
           </NavLink>
